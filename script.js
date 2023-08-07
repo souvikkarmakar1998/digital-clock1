@@ -27,7 +27,7 @@ function nowTime(){
     }
 
     document.getElementById('time').innerHTML = `${hour} : ${minute} : ${second} ${amOrPm}`
-    // document.getElementById('amorpm').innerHTML = amOrPm
+    
 }
 
 setInterval(nowTime, 1000)
