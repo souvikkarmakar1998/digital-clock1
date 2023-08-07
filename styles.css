@@ -8,7 +8,8 @@
 .container{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to right, #C33764, #1D2671);
+    background: url(img/img.jpg);
+    background-size: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +21,7 @@
     position: absolute;
     top: 50px;
     font-size: 50px;
-    color: #FEBBCC;
+    color: #b0a4a7;
 }
 
 .container-clock{
@@ -36,5 +37,6 @@
     border-bottom-left-radius: .8rem;
     font-weight: bold;
     font-size: 50px;
+    /* background-color: #020103; */
     
 }
