@@ -35,3 +35,33 @@
     font-size: 50px;
     margin-bottom: 10rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .container-clock{
+        margin-bottom: 15rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .para{
+        font-size: 50px;
+    }
+
+    .container-clock{
+        font-size: 40px;
+        margin-bottom: 25rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .para{
+        font-size: 30px;
+    }
+
+    .container-clock{
+        height: 70px;
+        width: 300px;
+        font-size: 30px;
+        /* margin-bottom: 25rem; */
+    }
+}
